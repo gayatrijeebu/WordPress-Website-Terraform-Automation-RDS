@@ -1,5 +1,3 @@
-Created VPC, 2public subnets and 1 private subnet
-
 # Creating a new VPC
 resource "aws_vpc" "my_vpc" {
   cidr_block       = "192.168.0.0/16"
